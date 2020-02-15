@@ -1,0 +1,8 @@
+# conda env create --file tools/conda-env.yml
+
+name: pydantic-etcd
+dependencies:
+    - python=3.8
+    - pip:
+        - -r file:../requirements.txt
+        - -r file:../requirements.test.txt
