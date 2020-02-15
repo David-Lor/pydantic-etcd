@@ -42,6 +42,22 @@ See more examples at [examples](examples).
 - Requirements listed in [requirements.txt](requirements.txt)
 - Running ETCD server
 
+## Installing
+
+While package is not uploaded to PyPi, can be installed with:
+
+```bash
+pip install git+git://github.com/David-Lor/pydantic-etcd.git#egg=pydantic-etcd
+```
+
+Or cloning the repo:
+
+```bash
+git clone https://github.com/David-Lor/pydantic-etcd.git
+cd pydantic-etcd
+python setup.py install
+```
+
 ## Running tests
 
 ```bash
