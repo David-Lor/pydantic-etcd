@@ -1,5 +1,7 @@
 # pydantic-etcd
 
+![Test](https://github.com/David-Lor/pydantic-etcd/workflows/Test/badge.svg)
+
 [pydantic](https://github.com/samuelcolvin/pydantic) BaseSettings - based class to load settings from an ETCD server.
 
 ## Getting started
@@ -26,7 +28,7 @@ See more examples at [examples](examples).
 
 ## Changelog
 
-- 0.0.1 - Initial release, load from ETCD and watch keys
+- 0.0.1 - Initial version, load from ETCD and watch keys
 
 ## TODO
 
@@ -43,7 +45,7 @@ See more examples at [examples](examples).
 ## Running tests
 
 ```bash
-# Ensure you have a running ETCD server!
+# Ensure you have a working ETCD server!
 
 pip install -r requirements.txt
 pip install -r requirements.test.txt
