@@ -4,6 +4,9 @@
 
 [pydantic](https://github.com/samuelcolvin/pydantic) BaseSettings - based class to load settings from an ETCD server.
 
+**This image is experimental and might have undesirable effects. Currently is more a POC than a functional project.
+Use it under your responsability!**
+
 ## Getting started
 
 PUT these two keys in your ETCD server: `app_host` & `app_port` (int)
